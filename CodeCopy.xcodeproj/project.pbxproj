@@ -11,6 +11,11 @@
 		C2E216022BE938DF00A506EA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2E216012BE938DF00A506EA /* ContentView.swift */; };
 		C2E216042BE938E000A506EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2E216032BE938E000A506EA /* Assets.xcassets */; };
 		C2E216072BE938E000A506EA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2E216062BE938E000A506EA /* Preview Assets.xcassets */; };
+		C2E216102BE93A0500A506EA /* Roadmap in Frameworks */ = {isa = PBXBuildFile; productRef = C2E2160F2BE93A0500A506EA /* Roadmap */; };
+		C2E216122BE93A2300A506EA /* Roadmap.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2E216112BE93A2300A506EA /* Roadmap.swift */; };
+		C2E216142BE93ADB00A506EA /* roadmap.json in Resources */ = {isa = PBXBuildFile; fileRef = C2E216132BE93ADB00A506EA /* roadmap.json */; };
+		C2E2161C2BE93C4300A506EA /* SmallButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2E2161B2BE93C4300A506EA /* SmallButton.swift */; };
+		C2E2161E2BE93FE200A506EA /* Learnings.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2E2161D2BE93FE200A506EA /* Learnings.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +25,10 @@
 		C2E216032BE938E000A506EA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C2E216062BE938E000A506EA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		C2E216082BE938E000A506EA /* Deep_Dish_Demo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Deep_Dish_Demo.entitlements; sourceTree = "<group>"; };
+		C2E216112BE93A2300A506EA /* Roadmap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Roadmap.swift; sourceTree = "<group>"; };
+		C2E216132BE93ADB00A506EA /* roadmap.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = roadmap.json; sourceTree = "<group>"; };
+		C2E2161B2BE93C4300A506EA /* SmallButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmallButton.swift; sourceTree = "<group>"; };
+		C2E2161D2BE93FE200A506EA /* Learnings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Learnings.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -27,6 +36,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C2E216102BE93A0500A506EA /* Roadmap in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -54,6 +64,10 @@
 			children = (
 				C2E215FF2BE938DF00A506EA /* Deep_Dish_DemoApp.swift */,
 				C2E216012BE938DF00A506EA /* ContentView.swift */,
+				C2E2161D2BE93FE200A506EA /* Learnings.swift */,
+				C2E216112BE93A2300A506EA /* Roadmap.swift */,
+				C2E2161B2BE93C4300A506EA /* SmallButton.swift */,
+				C2E216132BE93ADB00A506EA /* roadmap.json */,
 				C2E216032BE938E000A506EA /* Assets.xcassets */,
 				C2E216082BE938E000A506EA /* Deep_Dish_Demo.entitlements */,
 				C2E216052BE938E000A506EA /* Preview Content */,
@@ -85,6 +99,9 @@
 			dependencies = (
 			);
 			name = "Deep Dish Demo";
+			packageProductDependencies = (
+				C2E2160F2BE93A0500A506EA /* Roadmap */,
+			);
 			productName = "Deep Dish Demo";
 			productReference = C2E215FC2BE938DF00A506EA /* Deep Dish Demo.app */;
 			productType = "com.apple.product-type.application";
@@ -113,6 +130,9 @@
 				Base,
 			);
 			mainGroup = C2E215F32BE938DF00A506EA;
+			packageReferences = (
+				C2E2160E2BE93A0500A506EA /* XCRemoteSwiftPackageReference "Roadmap" */,
+			);
 			productRefGroup = C2E215FD2BE938DF00A506EA /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -127,6 +147,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C2E216142BE93ADB00A506EA /* roadmap.json in Resources */,
 				C2E216072BE938E000A506EA /* Preview Assets.xcassets in Resources */,
 				C2E216042BE938E000A506EA /* Assets.xcassets in Resources */,
 			);
@@ -139,7 +160,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C2E216122BE93A2300A506EA /* Roadmap.swift in Sources */,
+				C2E2161C2BE93C4300A506EA /* SmallButton.swift in Sources */,
 				C2E216022BE938DF00A506EA /* ContentView.swift in Sources */,
+				C2E2161E2BE93FE200A506EA /* Learnings.swift in Sources */,
 				C2E216002BE938DF00A506EA /* Deep_Dish_DemoApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -279,6 +303,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = CodeCopy;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -306,6 +331,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = CodeCopy;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -341,6 +367,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		C2E2160E2BE93A0500A506EA /* XCRemoteSwiftPackageReference "Roadmap" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/AvdLee/Roadmap";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		C2E2160F2BE93A0500A506EA /* Roadmap */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C2E2160E2BE93A0500A506EA /* XCRemoteSwiftPackageReference "Roadmap" */;
+			productName = Roadmap;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = C2E215F42BE938DF00A506EA /* Project object */;
 }

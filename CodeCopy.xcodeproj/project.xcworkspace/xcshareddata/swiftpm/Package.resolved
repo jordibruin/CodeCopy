@@ -1,0 +1,15 @@
+{
+  "originHash" : "21abaebe66e029235a86a21083ad72ffc7568a6938de0b65e00368d2ae9030d9",
+  "pins" : [
+    {
+      "identity" : "roadmap",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/AvdLee/Roadmap",
+      "state" : {
+        "branch" : "main",
+        "revision" : "04cca0ceec2dda141421b88c7f789ac24000010e"
+      }
+    }
+  ],
+  "version" : 3
+}
