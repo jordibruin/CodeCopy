@@ -1,139 +1,22 @@
 [
   {
-    "title" : "Menubar improvements",
-    "id" : "1",
-    "description" : "View history, perform more actions etc",
-    "status" : "planned"
+    "title" : "Nicer design",
+    "id" : "1"
   },
   {
-    "title" : "Multiple window support",
-    "id" : "30",
-    "status" : "researching",
-    "description" : "The ability to open multiple MacWhisper windows at the same time side by side."
+    "title" : "Print the code out (cmd P)",
+    "id" : "2"
   },
   {
-    "status" : "Released in 6.11",
-    "title" : "More export options",
-    "id" : "40",
-    "description" : "More advanced export options and styles"
+    "title" : "Localizations",
+    "id" : "4"
   },
   {
-    "title" : "iOS and iPadOS app",
-    "description" : "A simple first version of MacWhisper for your mobile devices",
-    "status" : "Coming Soon",
+    "title" : "Warn users if string is too long",
     "id" : "5"
   },
   {
-    "title" : "Speaker Recognition",
-    "description" : "We're working with the leading speaker recognition framework to add this as soon as we can.",
-    "status" : "Partnering with Pyannote",
+    "title" : "ChatGPT API Integration",
     "id" : "6"
-  },
-  {
-    "id" : "7",
-    "status" : "Released in 6.2",
-    "title" : "Add a custom prompt",
-    "description" : "Choosing a custom prompt will allow you to guide the transcription process"
-  },
-  {
-    "status" : "Released in 6.11",
-    "title" : "Show Time remaining in batch mode",
-    "description" : "Show how long the batch transcription job is estimated to take",
-    "id" : "8"
-  },
-  {
-    "status" : "researching",
-    "id" : "10",
-    "title" : "Playback both audio tracks in system audio recording mode",
-    "description" : "Right now only the system audio is played back. If you also enable the microphone we want to also play that back"
-  },
-  {
-    "description" : "Improve the history list to also show the file duration and to group them by date",
-    "id" : "11",
-    "status" : "in progress",
-    "title" : "Imrpove History design"
-  },
-  {
-    "status" : "planned",
-    "title" : "Observe a directory and auto transcribe",
-    "description" : "Tell MacWhisper which directories to track and then auto transcribe and export to that folder",
-    "id" : "12"
-  },
-  {
-    "id" : "13",
-    "status" : "planned",
-    "description" : "Guide users more to how to setup their DeepL API key to enable translation",
-    "title" : "Clearer explanations of DeepL feature"
-  },
-  {
-    "id" : "16",
-    "description" : "Allow MacWhisper to detect when Zoom \/ Teams etc is opened and then it can prompt you to auto record the meeting through the menubar",
-    "status" : "researching",
-    "title" : "Auto record meetings"
-  },
-  {
-    "description" : "For some users the download speeds from YouTube can be slow",
-    "title" : "Improve download speed of YouTube videos",
-    "status" : "researching",
-    "id" : "17"
-  },
-  {
-    "status" : "Researching",
-    "title" : "Fix random crashes when dragging from Voice Memos app",
-    "description" : "There's a strange issue where sometimes dragging from Voice Memos can crash the app. It's tough to crack and reproduce but vote for this if you ran into it.",
-    "id" : "19"
-  },
-  {
-    "title" : "Autosave changes to .whisper file when editing",
-    "id" : "20",
-    "status" : "released",
-    "description" : "When you open a .whisper file and you make edit it will be nice if they are auto saved"
-  },
-  {
-    "id" : "22",
-    "title" : "Translate during Batch transcription",
-    "status" : "Investigating",
-    "description" : "Right now you can only translate files manually in the regular transcription mode. In batch mode it could be an option to automatically translate a file before it is saved and then save the translated and regular version automatically."
-  },
-  {
-    "id" : "131",
-    "title" : "Play the system app audio and microphone recordings together when playing back system audio recordings",
-    "status" : "Developing"
-  },
-  {
-    "id" : "132",
-    "title" : "Batch transcription using the cloud transcription feature",
-    "status" : "Developing",
-    "description" : "Currently you can only transcribe one file at a time with the cloud transcription feature. This would allow support for batching."
-  },
-  {
-    "id" : "133",
-    "title" : "Add an option to show a preflight screen before starting a transcription",
-    "status" : "Developing",
-    "description" : "This would let you (optionally) adjust the settings that will be used for a transcription before you start."
-  },
-  {
-    "id" : "134",
-    "title" : "Adjust timecodes",
-    "status" : "Developing",
-    "description" : "Improved support for different or custom timecodes"
-  },
-  {
-    "id" : "135",
-    "title" : "More playback speed options",
-    "status" : "Investigating",
-    "description" : "Allow playback at speeds higher than 2x"
-  },
-  {
-    "id" : "136",
-    "title" : "Automatically translate transcripts after transcription finished",
-    "status" : "Investigating",
-    "description" : "Use the DeepL translation feature automatically when a transcription is finished"
-  },
-  {
-    "id" : "137",
-    "title" : "Custom fonts and font sizes for different modes",
-    "status" : "Investigating",
-    "description" : "Allow more control over design and color and fonts used throughout the app"
   }
 ]

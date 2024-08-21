@@ -1,8 +1,6 @@
-//
-//  Learnings.swift
-//  Deep Dish Demo
-//
-//  Created by Jordi Bruin on 06/05/2024.
-//
-
-import Foundation
+// START SMALL
+// MAKE SOMETHING THAT WORKS
+// ASK FRIENDS FOR HELP
+// ASK FOR FEEDBACK
+// REUSE YOUR EXISTING
+// YOU CAN ALWAYS UPDATE ANYTHING
