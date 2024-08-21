@@ -8,7 +8,7 @@
 import SwiftUI
 
 @main
-struct Deep_Dish_DemoApp: App {
+struct CodeCopyApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()

@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C2E216002BE938DF00A506EA /* Deep_Dish_DemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2E215FF2BE938DF00A506EA /* Deep_Dish_DemoApp.swift */; };
+		C2E216002BE938DF00A506EA /* CodeCopyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2E215FF2BE938DF00A506EA /* CodeCopyApp.swift */; };
 		C2E216022BE938DF00A506EA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2E216012BE938DF00A506EA /* ContentView.swift */; };
 		C2E216042BE938E000A506EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2E216032BE938E000A506EA /* Assets.xcassets */; };
 		C2E216072BE938E000A506EA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2E216062BE938E000A506EA /* Preview Assets.xcassets */; };
@@ -20,11 +20,11 @@
 
 /* Begin PBXFileReference section */
 		C2E215FC2BE938DF00A506EA /* CodeCopy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CodeCopy.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		C2E215FF2BE938DF00A506EA /* Deep_Dish_DemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Deep_Dish_DemoApp.swift; sourceTree = "<group>"; };
+		C2E215FF2BE938DF00A506EA /* CodeCopyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeCopyApp.swift; sourceTree = "<group>"; };
 		C2E216012BE938DF00A506EA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		C2E216032BE938E000A506EA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C2E216062BE938E000A506EA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		C2E216082BE938E000A506EA /* Deep_Dish_Demo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Deep_Dish_Demo.entitlements; sourceTree = "<group>"; };
+		C2E216082BE938E000A506EA /* CodeCopy.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CodeCopy.entitlements; sourceTree = "<group>"; };
 		C2E216112BE93A2300A506EA /* Roadmap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Roadmap.swift; sourceTree = "<group>"; };
 		C2E216132BE93ADB00A506EA /* roadmap.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = roadmap.json; sourceTree = "<group>"; };
 		C2E2161B2BE93C4300A506EA /* SmallButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmallButton.swift; sourceTree = "<group>"; };
@@ -46,7 +46,7 @@
 		C2E215F32BE938DF00A506EA = {
 			isa = PBXGroup;
 			children = (
-				C2E215FE2BE938DF00A506EA /* Deep Dish Demo */,
+				C2E215FE2BE938DF00A506EA /* CodeCopy */,
 				C2E215FD2BE938DF00A506EA /* Products */,
 			);
 			sourceTree = "<group>";
@@ -59,20 +59,20 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		C2E215FE2BE938DF00A506EA /* Deep Dish Demo */ = {
+		C2E215FE2BE938DF00A506EA /* CodeCopy */ = {
 			isa = PBXGroup;
 			children = (
-				C2E215FF2BE938DF00A506EA /* Deep_Dish_DemoApp.swift */,
+				C2E215FF2BE938DF00A506EA /* CodeCopyApp.swift */,
 				C2E216012BE938DF00A506EA /* ContentView.swift */,
 				C2E2161D2BE93FE200A506EA /* Learnings.swift */,
 				C2E216112BE93A2300A506EA /* Roadmap.swift */,
 				C2E2161B2BE93C4300A506EA /* SmallButton.swift */,
 				C2E216132BE93ADB00A506EA /* roadmap.json */,
 				C2E216032BE938E000A506EA /* Assets.xcassets */,
-				C2E216082BE938E000A506EA /* Deep_Dish_Demo.entitlements */,
+				C2E216082BE938E000A506EA /* CodeCopy.entitlements */,
 				C2E216052BE938E000A506EA /* Preview Content */,
 			);
-			path = "Deep Dish Demo";
+			path = CodeCopy;
 			sourceTree = "<group>";
 		};
 		C2E216052BE938E000A506EA /* Preview Content */ = {
@@ -164,7 +164,7 @@
 				C2E2161C2BE93C4300A506EA /* SmallButton.swift in Sources */,
 				C2E216022BE938DF00A506EA /* ContentView.swift in Sources */,
 				C2E2161E2BE93FE200A506EA /* Learnings.swift in Sources */,
-				C2E216002BE938DF00A506EA /* Deep_Dish_DemoApp.swift in Sources */,
+				C2E216002BE938DF00A506EA /* CodeCopyApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -294,12 +294,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = "Deep Dish Demo/Deep_Dish_Demo.entitlements";
+				CODE_SIGN_ENTITLEMENTS = CodeCopy/CodeCopy.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Deep Dish Demo/Preview Content\"";
-				DEVELOPMENT_TEAM = 8Q7TMPA46J;
+				DEVELOPMENT_ASSET_PATHS = "\"CodeCopy/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -323,12 +323,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = "Deep Dish Demo/Deep_Dish_Demo.entitlements";
+				CODE_SIGN_ENTITLEMENTS = CodeCopy/CodeCopy.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Deep Dish Demo/Preview Content\"";
-				DEVELOPMENT_TEAM = 8Q7TMPA46J;
+				DEVELOPMENT_ASSET_PATHS = "\"CodeCopy/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
